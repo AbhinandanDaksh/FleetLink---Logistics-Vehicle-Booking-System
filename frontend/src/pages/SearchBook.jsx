@@ -34,12 +34,12 @@ export default function SearchBook() {
      await api.post("http://localhost:5000/api/booking/book-vehicle", {
   ...query,
   vehicleId,
-  costumerId: "123",  // ✅ सही spelling use करो
+  costumerId: "123",  
 });
 
-      alert("Vehicle booked ✅");
+      alert("Vehicle booked ");
     } catch (error) {
-      alert("Booking failed ❌");
+      alert("Booking failed ");
     }
   };
 

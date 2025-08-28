@@ -13,7 +13,7 @@ export default function Bookings() {
         console.log(res)
         setBookings(res.data.bookings);
       } catch (error) {
-        alert("Error fetching bookings ❌");
+        alert("Error fetching bookings ");
       }
     };
     fetchBookings();
